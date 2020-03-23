@@ -229,7 +229,7 @@ header {
 
 .about-box {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 44%;
   margin-left: 65px;
   margin-bottom: 100px;
