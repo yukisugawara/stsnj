@@ -218,22 +218,50 @@ header {
 /*-------  ここまでevents  --------*/
 
 /*-------  ここからabout  --------*/
-.about-section-top {
+
+
+.about-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
   text-align: center;
-  height: 70px;
+  font-family: YuGothic Light;
 }
 
-.about-section-bottom {
-  padding-top: 120px;
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
 
-.about-box {
+.heading h2 {
+  font-weight: normal;
+}
+
+.about {
+  float: left;
+  width: 25%;
+}
+
+.about-icon {
+  position: relative;
+  opacity: 0.5;
+}
+
+.about-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
   display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  width: 44%;
-  margin-left: 65px;
-  margin-bottom: 100px;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
 }
 
 /*-------  ここまでabout  --------*/
@@ -242,6 +270,7 @@ header {
 .contact-section {
   color: #6a6a6a;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
 
 }
 
@@ -284,8 +313,13 @@ footer {
   background-color: #222;
 }
 
+.contact-form {
+  text-align: center;
+}
+
 
 .copyright {
   margin-top: 20px;
+  text-align: center;
 }
 /*-------  ここまでfooter  --------*/
